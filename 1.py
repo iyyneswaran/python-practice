@@ -1,0 +1,1 @@
+print('Eligible to vote' if int(input()) >= 18 else 'Not eligible to vote')

@@ -1,5 +1,1 @@
-s = str(input())
-if s == s[::-1]:
-    print("Yes! It's a palindrome.")
-else:
-    print("No! It's not a palindrome.")
+print("Yes! It's a palindrome." if (s := input("Enter a string: ")).lower() == s[::-1].lower() else "No! It's not a palindrome.")

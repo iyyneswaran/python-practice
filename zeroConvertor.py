@@ -9,10 +9,11 @@ def check(n):
         neg(n)
 
 def pos(n):
-    for i in range(n, -1, -1):
+    for i in range(n - 1, -1, -1):
         print(i, end=" ")
     
 def neg(n):
     for i in range(n, 1):
         print(i, end=" ")
-    
+
+check(n)
